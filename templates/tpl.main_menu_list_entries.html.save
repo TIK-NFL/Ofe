@@ -1,0 +1,10 @@
+<!-- BEGIN ofe -->
+  <script type="text/javascript">
+    Ofe.Matheval.plugin_directory = "{PLUGIN_DIRECTORY}"; 
+  </script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $('div.ilMainMenu > ul').append("<li class=\"ilMainMenu\"><a class=\"{MM_CLASS}\" href=\"{SCRIPT_OFE}\">{TXT_OFE}</a>{SEL}</li>");    
+    });
+  </script>
+<!-- END ofe -->
