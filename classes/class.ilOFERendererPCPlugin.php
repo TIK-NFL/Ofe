@@ -19,7 +19,7 @@ class ilOFERendererPCPlugin extends ilPageComponentPlugin
 
         function isValidParentType($a_type)
         {
-                if (in_array($a_type, array("lm","gdf","qht","qpl","qfbg","qfbs","wpg","impr")))
+                if (in_array($a_type, array("impr")))
                 {
                         return true;
                 }
