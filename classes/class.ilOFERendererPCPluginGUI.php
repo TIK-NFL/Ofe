@@ -18,6 +18,19 @@ class ilOFERendererPCPluginGUI extends ilPageComponentPluginGUI
 	 * @return array array with entries "mode" => modification mode, "html" => your html
 	 */
 
-	
+	function executeCommand()
+	{}
+
+	function insert()
+	{}
+
+	function edit()
+	{}
+
+	function create()
+	{}
+
+	function getElementHTML($a_mode, array $a_properties, $plugin_version)
+	{}
 }
 ?>
