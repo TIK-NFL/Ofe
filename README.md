@@ -16,5 +16,5 @@ D.h. ausgehend vom Wurzelverzeichnis der ILIAS-Installation:
 cd Customizing/global/plugins/Services/COPage/PageComponent/
 mkdir OFERendererPC
 cd OFERendererPC
-git checkout https://github.com/TIK-NFL/Ofe.git .
+git clone https://github.com/TIK-NFL/Ofe.git .
 ```
